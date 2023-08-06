@@ -48,6 +48,7 @@ async function fetchCurrentWeather(searchCity, searchState, searchCountry) {
 function clearSearch() {
     document.getElementById("search-city").value = "";
     document.getElementById("search-state").value = "";
+    document.querySelector(".hide").style.display = "none";
     const img = document.querySelector("img");
     img.style.display = "none";
     clearDOM();
