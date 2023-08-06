@@ -1,0 +1,46 @@
+body {
+    background: lightcoral;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+input{
+    margin: 10px;
+    height: 2rem;
+    /* width: 10px; */
+}
+.temp{
+    font-size: 30px;
+    font-weight: bolder;
+}
+button{
+    border-radius: 10px;
+    background: yellow;
+    margin: 3px;
+    width: 5rem;
+    height: 2rem;
+}
+
+.display-div{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.6;
+    height: 212px;
+    width: 205px;
+    margin-top: 50px;
+}
+
+p {
+    margin: 0;
+    color: rgb(233, 233, 9);
+    font-weight: bold;
+}
