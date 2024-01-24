@@ -1,0 +1,99 @@
+body {
+    background: #87CEEB; /* Sky Blue */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+/* Left side styles */
+.left {
+    margin-right: 20px;
+}
+
+form {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+input {
+    margin: 10px;
+    height: 2rem;
+}
+
+.temp {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #FF6347; /* Tomato Red */
+}
+
+button {
+    border-radius: 10px;
+    background: #FFD700; /* Gold */
+    margin: 3px;
+    width: 5rem;
+    height: 2rem;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #FFA500; /* Orange */
+}
+
+/* Display div styles */
+.display-div {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 212px;
+    width: 205px;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Text paragraph styles */
+p {
+    margin: 0;
+    color: #EDEDED; /* Light Gray */
+    font-weight: bold;
+}
+
+/* Right side styles */
+.right {
+    margin-left: 20px;
+}
+
+/* Country info input and container styles */
+#countryInput {
+    margin: 10px;
+    height: 2rem;
+}
+
+#countryInfo {
+    /* Additional styles for country info container if needed */
+}
+.right{
+  display: block;
+  margin-top: 19rem;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
