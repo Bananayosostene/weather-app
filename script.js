@@ -226,6 +226,6 @@ function displayCountryInfo(country) {
         <h2>${country.name.common}</h2>
         <img src="${country.flags.png}" alt="${country.name.common} Flag" width="100">
         <p>Population: ${country.population}</p>
-        <p>Area Surface: ${country.area} square kilometers</p>
+        <p>Area Surface: ${country.area} k2</p>
       `;
 }

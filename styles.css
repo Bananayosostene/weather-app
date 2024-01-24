@@ -9,6 +9,7 @@ body {
 
 .container {
     display: flex;
+    gap: 10rem;
 }
 
 /* Left side styles */
@@ -29,12 +30,15 @@ input {
     height: 2rem;
 }
 
-.temp {
+.temp{
     font-size: 30px;
     font-weight: bolder;
-    color: #FF6347; /* Tomato Red */
+    color: rgba(0, 0, 0, 0.6); /* Tomato Red */
 }
-
+.label{
+  color: rgba(0, 0, 0, 0.6); 
+  font-weight: bolder; 
+}
 button {
     border-radius: 10px;
     background: #FFD700; /* Gold */
@@ -50,7 +54,7 @@ button:hover {
 }
 
 /* Display div styles */
-.display-div {
+.display-div, #countryInfo {
     display: grid;
     align-items: center;
     justify-content: center;
@@ -73,6 +77,8 @@ p {
 /* Right side styles */
 .right {
     margin-left: 20px;
+    display: block;
+    margin-top: 14rem;
 }
 
 /* Country info input and container styles */
@@ -83,10 +89,6 @@ p {
 
 #countryInfo {
     /* Additional styles for country info container if needed */
-}
-.right{
-  display: block;
-  margin-top: 19rem;
 }
 
 @keyframes fadeIn {
