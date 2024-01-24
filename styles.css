@@ -99,6 +99,10 @@ p {
 .container {
     display: block;
 }
+.right {
+
+    margin-top: 2rem;
+}
     
 }
 
@@ -109,4 +113,5 @@ p {
     to {
         opacity: 1;
     }
+    
 }
