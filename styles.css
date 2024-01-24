@@ -76,9 +76,9 @@ p {
 
 /* Right side styles */
 .right {
-    margin-left: 20px;
+    margin-left: 18px;
     display: block;
-    margin-top: 14rem;
+    margin-top: 13rem;
 }
 
 /* Country info input and container styles */
@@ -89,6 +89,17 @@ p {
 
 #countryInfo {
     /* Additional styles for country info container if needed */
+}
+
+@media screen and (max-width:800px)  {
+    body {
+    display: block;
+   
+}
+.container {
+    display: block;
+}
+    
 }
 
 @keyframes fadeIn {
